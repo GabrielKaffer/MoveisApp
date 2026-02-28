@@ -31,8 +31,6 @@
             android:focusable="true"
             android:inputType="textEmailAddress"
             android:maxLength="50" />
-
-
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
