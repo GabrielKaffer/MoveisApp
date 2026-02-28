@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_margin="10sp"
-        android:text="Moveis Grajau"
+        android:text="MoveisGrajau"
         android:textColor="#E95639"
         android:textSize="34sp"
         android:textStyle="bold" />
