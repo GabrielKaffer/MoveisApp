@@ -41,10 +41,26 @@
         android:paddingBottom="10dp"
         android:paddingLeft="30dp"
         android:paddingRight="30dp">
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:background="#ffffff"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="      Pesquisa"
+            app:endIconMode="clear_text"
+
+            app:startIconDrawable="@drawable/baseline_search_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:inputType="text"
+                android:maxLength="50"
+                android:background="#fff"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
 
     </LinearLayout>
 
